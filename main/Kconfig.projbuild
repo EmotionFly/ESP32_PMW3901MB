@@ -1,0 +1,15 @@
+menu "pmw3901 Test Configuration"
+
+config LED_RED_IO
+    int "LED_RED GPIO NUM"
+    default 25
+    help
+	GPIO pin for LED_RED
+
+config LED_BLUE_IO
+    int "LED_BLUE GPIO NUM"
+    default 2
+    help
+	GPIO pin for LED_BLUE
+
+endmenu
